@@ -2,11 +2,14 @@ version: '3.7'
 
 services:
 
-  development:
+  workspace:
 
-    image: golang
+    build:
+      context: .
 
-    command: ["tail", "-f", "/dev/null"]
+    command: tail -f /dev/null
+
+    user: bfreire
 
     volumes:
       - ..:/workspace

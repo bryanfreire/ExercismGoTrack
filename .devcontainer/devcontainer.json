@@ -1,12 +1,12 @@
 {
 	"dockerComposeFile": "docker-compose.yml",
 
-	"service": "development",
+	"service": "workspace",
 
 	"workspaceFolder": "/workspace",
 
 	"extensions": [
 		"patbenatar.advanced-new-file",
-		"golang.go",
-	],
+		"golang.go"
+	]
 }
