@@ -13,4 +13,4 @@ services:
 
     volumes:
       - ..:/workspace
-      - ~/.ssh:/root/.ssh:ro
+      - ~/.ssh:/home/bfreire/.ssh:ro
